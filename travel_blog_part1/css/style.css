@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
 	font-family: 'Lato', sans-serif;
 	color: #000000;
@@ -6,11 +10,17 @@ body{
 	padding-top: 15px;
 }
 
+a{
+	color: #F9D483;
+	text-decoration: none;
+}
+
 h1 > a{
 	color: #F9D483;
 	text-decoration: none;
 	font-weight: 300;
 	font-size: 50px;
+	display: inline;
 }
 
 h2{
@@ -23,12 +33,45 @@ h2 > a{
 	text-decoration: none;
 }
 
+nav {
+	max-width: 900px;
+}
 
 nav > a{
-	color: #D2D2D2;
-	padding: 5px;
+	color: white;
+    padding: .5em;
+    text-decoration: none;
+    display: inline-block;
+    background: #BABABA;
+    width: 16.3%;
+    text-align: center;
+}
+
+section{
+	width: 70%;
+	float: left;
+	padding-right: 50px;
+}
+
+article{
 	margin: 10px auto;
-	max-width: 900px;
+	line-height: 1.4em;
+}
+
+hr{
+	color: #D2D2D2;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+h3{
+	color: #D2D2D2;
+	font-weight: 300;
+	margin: 50px 0px 0px 0px;
+	font-size: 25px;
 }
 
 .dropcap {
@@ -39,18 +82,9 @@ nav > a{
  margin: 10px 12px -12px 0;
 }
 
-article{
-	margin: 10px auto;
-	line-height: 1.4em;
+h4 {
+	color: #BABABA;
 }
-
-h3{
-	color: #D2D2D2;
-	font-weight: 300;
-	margin: 50px 0px 0px 0px;
-	font-size: 25px;
-}
-
 
 h4 >a {
 	float: right;
@@ -59,11 +93,22 @@ h4 >a {
 	margin: 20px 20px 0px 10px;
 }
 
-
-footer > a{
-	color: #F9D483;
+aside{
+	width: 30%;
+	float: left;
+	padding-top: 80px;
 }
 
-footer > p{
+.more{
+	text-align: right;
+	font-weight: bold;
+}
+
+footer {
+	clear: both;
+}
+
+.p{
 	color: #D2D2D2;
 }
+
