@@ -21,44 +21,96 @@
     (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
 
     White - #ffffff;
-    Light Grey -
-    Dark Grey -
-    Grey/Black(text color) -
-    Yellow -
-    Red -
+    Light Grey - #D4E1DB
+    Dark Grey - #3C3A3A
+    Grey/Black(text color) - #080808
+    Yellow - #FEDB0D
+    Red - #FF0121
 */
 
 
 /* Global
    ================================================================ */
 body {
-  /* Set some defaults! font-family, font-size, color, etc. */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
 a {
-  /* Set some default styles for anchors (color, text decoration) */
-}
+    font-family: 'Oswald', sans-serif;
+  }
+
+ 
 
 /* Layout (columns, floats, etc.)
    ================================================================ */
+.banner{
+  background-image: url("../images/coworking.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  border-top: solid #D4E1DB 1px;
+  border-bottom: solid #D4E1DB 1px;
+}
 
+.blurb{
+  width: 30%;
+  float:right;
+  height: 375px;
+  width: 550px;
+  background-color:rgba(255,255,255,0.75);
+  color: #080808;
+  margin: 25px 65px 0 0;
+  border: solid #D4E1DB 1px;
+}
+
+.info{
+  width: 30%;
+  float: left;
+  margin-left: 35px;
+}
 
 /* Header
    ================================================================ */
+header{
+  float: left;
+  width: 100%;
+  display: inline-block;
+  background-color: #3C3A3A;
+  border-bottom: solid #FEDB0D 5px;
+}
 
+h1{
+  display: inline-block;
+}
+
+h1 > a{
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
 
 
 /* Footer
    ================================================================ */
-
+footer{
+  clear: both;
+}
 
 
 /* Navigation
    ================================================================ */
+nav{
+  display: inline-block;
+  max-width: 100%;
+}
 
-
+li > a{
+  float: right;
+  display: inline-block;
+}
 
 /* Buttons
    ================================================================ */
