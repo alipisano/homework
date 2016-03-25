@@ -45,17 +45,26 @@ a {
 
 /* Layout (columns, floats, etc.)
    ================================================================ */
+.tagline{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 25px;
+  background: #D4E1DB;
+  text-align: center;
+  padding: 0px 0px 40px 0px;
+}
+
 .banner{
   background-image: url("../images/coworking.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
   height: 450px;
   border-top: solid #D4E1DB 1px;
   border-bottom: solid #D4E1DB 1px;
 }
 
 .blurb{
-  width: 30%;
   float:right;
   height: 375px;
   width: 550px;
@@ -63,12 +72,54 @@ a {
   color: #080808;
   margin: 25px 65px 0 0;
   border: solid #D4E1DB 1px;
+  box-shadow: 1px 1px 1px 1px #D4E1DB;
+}
+
+.blurb>h2{
+  font-size: 25px;
+  padding: 50px 0px 0px 50px;     
+}
+
+.blurb>p{
+  font-size: 20px;
+  padding: 0px 50px 20px 50px;
 }
 
 .info{
   width: 30%;
   float: left;
   margin-left: 35px;
+  padding: 0px 0px 50px 0px;
+}
+
+.info>h3{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+.info>p{
+  padding: 0px 0px 20px 0px;
+  font-size: 20px;
+}
+
+.hr{
+  width:1px;
+  height: 210px;
+  background-color:#D4E1DB;
+  position:absolute;
+  top: 633px;
+  left: 465px;
+  z-index:10;
+}
+
+.hr2{
+  width:1px;
+  height: 210px;
+  background-color:#D4E1DB;
+  position:absolute;
+  top: 633px;
+  left: 930px;
+  z-index:10;
 }
 
 /* Header
@@ -90,6 +141,7 @@ h1 > a{
   text-decoration: none;
   color: white;
   font-size: 30px;
+  margin-left: 30px;
 }
 
 
@@ -99,18 +151,69 @@ footer{
   clear: both;
 }
 
+footer>p{
+  background: #3C3A3A;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0px 20px 30px;
+}
 
 /* Navigation
    ================================================================ */
 nav{
   display: inline-block;
-  max-width: 100%;
+  float: right;
 }
 
-li > a{
-  float: right;
+.navbar li{
   display: inline-block;
 }
 
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px 0px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.navbar strong{
+  text-transform: uppercase;
+}
+
+.bold a{
+  font-family: 'Oswald', sans-serif;
+}
+
+
 /* Buttons
    ================================================================ */
+
+.button{
+  background: red;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 100px;
+  border-radius: 5px;
+  margin-left: 100px;
+  box-shadow: 0 4px 2px -2px #990000;
+}
+
+.button2{
+  background: #D4E1DB;
+  color: #080808;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-left: 100px;
+  box-shadow: 0 4px 2px -2px #BEBEBE;
+}
+
+
+
+
+
