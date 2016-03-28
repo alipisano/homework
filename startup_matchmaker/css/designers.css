@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+/*   border: 1px solid red; */
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* 
+    SITE COLORS for your reference:
+    (refer to styleguide.jpg for hex codes or use Sip to pick colors from design)
+
+    White - #ffffff;
+    Light Grey - #D4E1DB
+    Dark Grey - #3C3A3A
+    Grey/Black(text color) - #080808
+    Yellow - #FEDB0D
+    Red - #FF0121
+*/
+
+
+/* Global
+   ================================================================ */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
+   ================================================================ */
+a {
+    font-family: 'Oswald', sans-serif;
+  }
+
+ 
+
+/* Layout (columns, floats, etc.)
+   ================================================================ */
+
+
+/* Header
+   ================================================================ */
+header{
+  float: left;
+  width: 100%;
+  display: inline-block;
+  background-color: #3C3A3A;
+  border-bottom: solid #FEDB0D 5px;
+}
+
+h1{
+  display: inline-block;
+}
+
+h1 > a{
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+
+/* Footer
+   ================================================================ */
+footer{
+  clear: both;
+}
+
+footer>p{
+  background: #3C3A3A;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0px 20px 30px;
+}
+
+/* Navigation
+   ================================================================ */
+nav{
+  display: inline-block;
+  float: right;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px 0px 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+.navbar strong{
+  text-transform: uppercase;
+}
+
+.bold a{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/* Buttons
+   ================================================================ */
+
+
+
+
