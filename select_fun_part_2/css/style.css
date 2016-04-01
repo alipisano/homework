@@ -115,3 +115,16 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.new{
+     background-color: black;
+     color: #9B30FF;
+}
+
+.another{
+     font-size: 50px;
+}
+
+.unique{
+     background-color: blue;
+}
