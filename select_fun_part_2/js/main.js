@@ -4,10 +4,10 @@ $('header').on('click', function(){
 })
 
 // 2.	Remove the purplebox class from everything.
-$('body').removeClass('.puplebox');
+$('.purplebox').removeClass('.purplebox');
 
 // 3.	Hide all of the div’s in #row4
-$('div').find('#row4').hide(500);
+$('div').find('#row4').hide();
 
 // 4.	Add a paragraph that says “I have been added” to all boxes with class “add-para” (Hint: you'll need to look up the append() method)
 $('.add-para').append("I have been added");
@@ -28,17 +28,27 @@ $('#box3').children('span').addClass('.another');
 $('#row1 article').addClass('.unique');
 
 // 9.	Change the background color of all the articles
+$('article').css('backgroundColor', 'blue');
 
 // 10.	Change the font color of all the articles in row 2
+$('#row2 article').css('color', blue);
 
 // 11.	Select any spans that are siblings of an h4 (using the .siblings() method) and hide them.
 
 // 12.	Clicking on #box7 should hide the span within the h2
+$('#box7').on('click' function() {
+	$('span' 'h2').hide(300);
+});
 
 // 13.	Add an h3 that says "Hello there!" to the beginning of #box12 (Hint: you'll need to look up the prepend() method)
 
 // 14.	SlideUp all the h1s on the page
+$('h1').slideUp();
 
 // 15. Add the selected class [already in the CSS] to the divs in #row4
 
 // 16.	Clicking reset should remove the selected class from everything and fade in the header element, the footer, and all elements with the class .box
+$('#reset').on('click', function () {
+	$('.selected').removeClass('selected');
+	$('header, footer, .box').fadeIn(1000);
+});
