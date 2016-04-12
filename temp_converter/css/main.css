@@ -3,8 +3,16 @@ body {
   text-align: center;
 }
 
+
 h1 {
-  font-family: Georgia, serif;
+  font-family: 'Londrina Outline', cursive;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#img{
+  padding-bottom: 15px;
 }
 
 .converter-container {
@@ -24,14 +32,25 @@ input:focus {
   outline: none;
 }
 
-button {
+#fahrenheit_to_celsius {
   font-size: 14px;
   padding: 10px;
   color: white;
   border: none;
   border-radius: 4px;
   outline: none;
-  background: #f26629;
+  background: #1874CD;
+  cursor: pointer;
+}
+
+#celsius_to_fahrenheit {
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background: #e60000;
   cursor: pointer;
 }
 
