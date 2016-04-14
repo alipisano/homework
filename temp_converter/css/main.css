@@ -54,6 +54,12 @@ input:focus {
   cursor: pointer;
 }
 
+#result{
+  font-family: 'Londrina Outline', cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
 /* Error styles
    ================================================================ */
 
